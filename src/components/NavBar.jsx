@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {logo, menu, close} from '../assets'
+import { logo, menu, close } from '../assets'
 import { navLinks } from '../constants'
 
 const NavBar = () => {
@@ -9,12 +9,14 @@ const NavBar = () => {
   return (
     <nav className="w-full flex py-3 justify-between items-center">
 
-      <img src={logo} alt="Sunray Travels and Consultancy" className="w-[128px] h-[64px]" />
+      <a href='/'>
+        <img src={logo} alt="Sunray Travels and Consultancy" className="w-[128px] h-[64px]" />
+      </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-theme`} >
-            <a href={`#${nav.id}`}>
+            <a href={`${nav.path}`}>
               {nav.title}
             </a>
           </li>
@@ -30,7 +32,7 @@ const NavBar = () => {
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`} >
-                <a href={`#${nav.id}`}>
+                <a href={`${nav.path}`}>
                   {nav.title}
                 </a>
               </li>
