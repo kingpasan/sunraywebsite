@@ -18,6 +18,23 @@
   scroll-behavior: smooth;
 }
 
+.text-theme {
+  background: #e85c1b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-theme-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #f17942 -78.47%,
+    #e85c1b 91.61%
+  );
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
