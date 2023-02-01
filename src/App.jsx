@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles'
-import { NavBar, Footer, Hero } from './components'
+import { NavBar, Footer } from './components'
+import NavigationRouters from './navigations/Navigation'
 
 const App = () => (
   <div className='w-full'>
@@ -13,13 +14,13 @@ const App = () => (
 
     <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-       <Hero/>
+        <NavigationRouters/>
       </div>
     </div>
 
     <div className={`${styles.paddingX} ${styles.flexStart} bg-white`}>
       <div className={`${styles.boxWidth}`}>
-        <Footer/>
+        <Footer />
       </div>
     </div>
 
