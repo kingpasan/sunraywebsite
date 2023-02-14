@@ -4,7 +4,7 @@ import { bg_test } from '../assets'
 
 const Hero = () => {
   return (
-    <section id='start' className={`flex md:flex-row flex-col ${styles.paddingY}`} style={{ height: "100vh", backgroundImage: `url(${bg_test}) items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover`}}>
+    <section id='start' className={`flex md:flex-row flex-col ${styles.paddingY}`} style={{ height: "100vh", backgroundImage: `url(${bg_test})`}}>
 
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
