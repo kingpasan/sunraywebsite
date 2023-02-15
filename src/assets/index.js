@@ -2,6 +2,7 @@ import logo from './logo.svg'
 import menu from './menu.svg'
 import close from './close.svg'
 import bg_test from './bg-test.webp'
+import sigiriya from './sigiriya.jpg'
 import instagram from './instagram.svg'
 import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
@@ -11,4 +12,4 @@ import hotel from './hotel.png'
 import tour from './tour.png'
 import visa from './visa.png'
 
-export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa }
+export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya}
