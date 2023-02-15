@@ -12,4 +12,4 @@ import hotel from './hotel.png'
 import tour from './tour.png'
 import visa from './visa.png'
 
-export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya}
+export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya }

@@ -1,13 +1,14 @@
 import React from 'react'
-import { Hero } from '../components'
-import Services from '../components/Services'
-import Stats from '../components/Stats'
+import { Hero, Services, Stats } from '../components'
+
+
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <Services/>
+      <Services />
+      <Stats />
     </>
   )
 }
