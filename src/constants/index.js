@@ -1,4 +1,4 @@
-import { instagram, facebook, linkedin, twitter } from '../assets'
+import { instagram, facebook, linkedin, twitter, tickets, visa, hotel, tour } from '../assets'
 
 export const navLinks = [
   {
@@ -190,3 +190,53 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
+
+export const services = [
+  {
+    id: "service-1",
+    title: "Air Ticketing",
+    description: "Air Ticketing Small Description",
+    image : tickets
+  },
+  {
+    id: "service-2",
+    title: "Visa Consultant",
+    description: "Visa Consultant Small Description",
+    image : visa
+  },
+  {
+    id: "service-3",
+    title: "Package Tours",
+    description: "Package Tours Small Description",
+    image : tour
+  },
+  {
+    id: "service-4",
+    title: "Hotels",
+    description: "Hotels Small Description",
+    image : hotel
+  },
+]
+
+export const stats = [
+  {
+    id: "stats-1",
+    title: "Customers",
+    value: "1000+",
+  },
+  {
+    id: "stats-2",
+    title: "Trusted by Company",
+    value: "50+",
+  },
+  {
+    id: "stats-3",
+    title: "Tours",
+    value: "5000+",
+  },
+  {
+    id: "stats-4",
+    title: "Transaction",
+    value: "$230M+",
+  },
+]
