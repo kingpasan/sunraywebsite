@@ -11,5 +11,6 @@ import tickets from './ticket.svg'
 import hotel from './hotel.png'
 import tour from './tour.png'
 import visa from './visa.png'
+import bn_travel from './travel-banner.jpeg'
 
-export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya }
+export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya, bn_travel }
