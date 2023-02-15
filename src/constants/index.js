@@ -195,25 +195,25 @@ export const services = [
   {
     id: "service-1",
     title: "Air Ticketing",
-    description: "Air Ticketing Small Description",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
     image : tickets
   },
   {
     id: "service-2",
     title: "Visa Consultant",
-    description: "Visa Consultant Small Description",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
     image : visa
   },
   {
     id: "service-3",
     title: "Package Tours",
-    description: "Package Tours Small Description",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
     image : tour
   },
   {
     id: "service-4",
     title: "Hotels",
-    description: "Hotels Small Description",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!", 
     image : hotel
   },
 ]
