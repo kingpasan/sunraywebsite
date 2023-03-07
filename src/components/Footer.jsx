@@ -14,8 +14,8 @@ const Footer = () => (
           alt="Sunray Travel and Consultancy"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`font-poppins font-normal text-[12px] leading-[30.8px] mt-4 max-w-[312px]`}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem cum, quae facilis voluptatibus perferendis ratione optio quidem placeat, distinctio debitis saepe maxime enim dolor, illum quos iusto quis! Quasi, dolores.
+        <p className={`font-poppins font-light text-[10px] leading-[25px] mt-4 text-justify`}>
+        Sunray Travels and Consultancy is a reputable travel agency founded by Sarath Wattegedara in Sweden in 2005. They offer services like air ticketing, tour planning, hotel booking, visa consultation, and specialize in tours to countries like Sri Lanka, India, and Thailand. Known for their reliability and attention to detail, they have become a trusted name in the industry.
         </p>
       </div>
 

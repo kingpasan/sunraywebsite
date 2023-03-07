@@ -6,5 +6,6 @@ import ParallaxImage from './ParallaxImage'
 import Services from './Services'
 import Stats from './Stats'
 import TravelBanner from './TravelBanner'
+import Destinations from './Destinations'
 
-export { NavBar, Hero, Footer, Loader, ParallaxImage, Services, Stats, TravelBanner }
+export { NavBar, Hero, Footer, Loader, ParallaxImage, Services, Stats, TravelBanner, Destinations }

@@ -23,7 +23,7 @@ export const navLinks = [
   },
 ];
 
-export const countriesSubLinks = [
+export const contriesSubLinks = [
   {
     id: "lk",
     title: "Sri Lanka",
@@ -195,26 +195,26 @@ export const services = [
   {
     id: "service-1",
     title: "Air Ticketing",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
-    image : tickets
+    description: "Sunray Travels and Consultancy's experienced team can assist customers with finding the best deals on flights and provide expert advice on travel options. We offer support for any issues or concerns that may arise before, during, or after the travel period.",
+    image: tickets
   },
   {
     id: "service-2",
     title: "Visa Consultant",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
-    image : visa
+    image: visa
   },
   {
     id: "service-3",
     title: "Package Tours",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
-    image : tour
+    image: tour
   },
   {
     id: "service-4",
     title: "Hotels",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!", 
-    image : hotel
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore recusandae hic ullam doloribus, ut eum consequatur delectus, qui iste totam debitis blanditiis mollitia nisi sapiente veniam enim iure sunt aliquam!",
+    image: hotel
   },
 ]
 
@@ -238,5 +238,83 @@ export const stats = [
     id: "stats-4",
     title: "Transaction",
     value: "$230M+",
+  },
+]
+
+export const countriesList = [
+  {
+    id: "lk",
+    title: "Sri Lanka",
+    path: "/lk"
+  },
+  {
+    id: "in",
+    title: "India",
+    path: "/in"
+  },
+  {
+    id: "ga",
+    title: "Georgia",
+    path: "/ga"
+  },
+  {
+    id: "is",
+    title: "Iceland",
+    path: "/is"
+  },
+  {
+    id: "id",
+    title: "Indonesia",
+    path: "/id"
+  },
+  {
+    id: "ke",
+    title: "Kenya",
+    path: "/ke"
+  },
+  {
+    id: "mv",
+    title: "Maldives",
+    path: "/mv"
+  },
+  {
+    id: "pt",
+    title: "Portugal",
+    path: "/pt"
+  },
+  {
+    id: "sc",
+    title: "Seychelles",
+    path: "/sc"
+  },
+  {
+    id: "sg",
+    title: "Singapore",
+    path: "/sg"
+  },
+  {
+    id: "si",
+    title: "Solvenia",
+    path: "/si"
+  },
+  {
+    id: "es",
+    title: "Spain",
+    path: "/es"
+  },
+  {
+    id: "tz",
+    title: "Tanzania",
+    path: "/tz"
+  },
+  {
+    id: "th",
+    title: "Thailand",
+    path: "/th"
+  },
+  {
+    id: "vn",
+    title: "Vietnam",
+    path: "/vn"
   },
 ]

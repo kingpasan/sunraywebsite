@@ -11,10 +11,10 @@ const Hero = () => {
           <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
             <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-theme ss:leading-[100.8px] leading-[75px] w-full">
-              Sunray Travel & Consultancy
+              Sunray Travels & Consultancy
             </h1>
             <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ad temporibus error, ipsum amet molestiae quibusdam cumque quae, iure sunt rem in. Alias quos ullam dolore. Laudantium harum delectus ipsum.
+            Sunray Travels and Consultancy is a travel agency based in Sweden that was established in 2005 by Sarath Wattegedara. The company has gained a reputation for providing reliable and trustworthy travel services, including air ticketing, tour planning, hotel booking, visa consultation, and more. Sunray Travels and Consultancy specializes in tours to popular destinations such as Sri Lanka, India, Thailand, and other Southeast Asian countries. With its commitment to quality customer service and attention to detail, Sunray Travels and Consultancy has become a trusted name in the travel industry.
             </p>
 
           </div>

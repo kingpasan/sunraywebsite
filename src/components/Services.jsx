@@ -5,8 +5,9 @@ const Services = () => {
     return (
         <section>
             <div className='flex flex-col justify-center p-10 text-center m-10 gap-5'>
-                <div className='block text-4xl font-satisfy text-theme'>Our Services</div>
-                <div className='font-poppins text-sm text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est porro maxime eligendi, dolore quasi hic tenetur beatae reiciendis, nam nesciunt pariatur blanditiis aperiam laborum fugiat. Perferendis ad odio vel! Esse.</div>
+            <div className='block text-4xl font-satisfy text-theme'>We Provides</div>
+                <div className='font-poppins text-4xl text-gray-700 font-bold'>Services</div>
+                <div className='font-poppins text-sm text-gray-500'>Sunray Travels and Consultancy is a reputable travel agency founded by Sarath Wattegedara in Sweden in 2005. They offer services like air ticketing, tour planning, hotel booking, visa consultation, and specialize in tours to countries like Sri Lanka, India, and Thailand. Known for their reliability and attention to detail, they have become a trusted name in the industry.</div>
             </div>
             <div className='flex flex-col justify-center sm:flex-row pb-20 pl-20 pr-20 gap-10'>
                 {services.map(({ id, image, title, description }) => (
