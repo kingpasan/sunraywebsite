@@ -1,5 +1,5 @@
 import React from 'react'
-import { Destinations, Hero, HeroSlide, Services, Stats, TravelBanner } from '../components'
+import { Destinations, HeroSlide, Services, Stats, TravelBanner } from '../components'
 
 const HomePage = () => {
   return (
