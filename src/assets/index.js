@@ -13,4 +13,8 @@ import tour from './tour.png'
 import visa from './visa.png'
 import bn_travel from './travel-banner.jpeg'
 
-export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya, bn_travel }
+import bg_1 from './bg_images/beautiful-girl-walking-aphrodisias-ancient-city-turkey.jpg'
+import bg_2 from './bg_images/beautiful-girl-white-dress-walking-margaret-flowers-fields-chiang-mai-thailand.jpg'
+import bg_3 from './bg_images/elephants-sri-lanka.jpg'
+
+export { logo, menu, close, bg_test, instagram, facebook, linkedin, twitter, tickets, hotel, tour, visa, sigiriya, bn_travel, bg_1, bg_2, bg_3 }

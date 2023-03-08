@@ -1,14 +1,14 @@
 import React from 'react'
-import { Destinations, Hero, Services, Stats, TravelBanner } from '../components'
+import { Destinations, Hero, HeroSlide, Services, Stats, TravelBanner } from '../components'
 
 const HomePage = () => {
   return (
     <>
-      <Hero />
+      <HeroSlide />
       <Services />
       <Stats />
       <TravelBanner />
-      <Destinations/>
+      <Destinations />
     </>
   )
 }

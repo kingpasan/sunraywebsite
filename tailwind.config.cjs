@@ -8,10 +8,13 @@ module.exports = {
         primary: "#e85c1b",
         secondary: "#00f6ff",
         themeTransOrange: "#e85c1bd8",
+        whiteTrans: "#0000004d"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        satisfy: ["Satisfy"]
+        satisfy: ["Satisfy"],
+        tiltwarp: ["Tilt Warp"],
+        orbitron: ["Orbitron"]
       },
     },
     screens: {

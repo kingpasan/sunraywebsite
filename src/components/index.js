@@ -1,4 +1,5 @@
 import NavBar from './NavBar'
+import HeroSlide from './HeroSlide'
 import Hero from './Hero'
 import Footer from './Footer'
 import Loader from './Loader'
@@ -8,4 +9,4 @@ import Stats from './Stats'
 import TravelBanner from './TravelBanner'
 import Destinations from './Destinations'
 
-export { NavBar, Hero, Footer, Loader, ParallaxImage, Services, Stats, TravelBanner, Destinations }
+export { NavBar, HeroSlide, Hero, Footer, Loader, ParallaxImage, Services, Stats, TravelBanner, Destinations }
