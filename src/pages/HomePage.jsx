@@ -8,7 +8,6 @@ const HomePage = () => {
       <Services />
       <Stats />
       <TravelBanner />
-      <Destinations />
     </>
   )
 }

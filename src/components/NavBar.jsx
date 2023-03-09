@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { logo, menu, close } from '../assets'
 import { navLinks } from '../constants'
+import LanguageNav from './LanguageNav'
 
 const NavBar = () => {
 
@@ -15,12 +16,15 @@ const NavBar = () => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-theme`} >
+          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-theme`} >
             <a href={`${nav.path}`}>
               {nav.title}
             </a>
           </li>
         ))}
+        <li>
+          <LanguageNav/>
+        </li>
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -31,12 +35,15 @@ const NavBar = () => {
         <div className={`${isToggle ? 'flex' : 'hidden'} p-6 bg-theme-gradient  absolute top-24 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`} >
+              <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white`} >
                 <a href={`${nav.path}`}>
                   {nav.title}
                 </a>
               </li>
             ))}
+            <li>
+              <LanguageNav/>
+            </li>
           </ul>
         </div>
 

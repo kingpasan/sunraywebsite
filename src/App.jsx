@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import styles from './styles'
-import { Loader } from './components'
+import { LanguagePopUp, Loader } from './components'
 
 const NavBar = React.lazy(() => import('./components/NavBar'))
 const Footer = React.lazy(() => import('./components/Footer'))
@@ -18,6 +18,7 @@ const App = () => (
 
       <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <LanguagePopUp/>
           <NavigationRouters />
         </div>
       </div>

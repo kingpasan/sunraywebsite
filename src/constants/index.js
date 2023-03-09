@@ -1,4 +1,19 @@
-import { instagram, facebook, linkedin, twitter, tickets, visa, hotel, tour } from '../assets'
+import {
+  instagram,
+  facebook,
+  linkedin,
+  twitter,
+  tickets,
+  visa,
+  hotel,
+  tour,
+  fl_de,
+  fl_dk,
+  fl_fl,
+  fl_no,
+  fl_sv,
+  fl_uk
+} from '../assets'
 
 export const navLinks = [
   {
@@ -22,6 +37,45 @@ export const navLinks = [
     path: "/contactus"
   },
 ];
+
+export const languagesList = [
+  {
+    id: "uk",
+    title: "UK",
+    langModel: "en",
+    img: fl_uk,
+  },
+  {
+    id: "sv",
+    title: "SV",
+    langModel: "sv",
+    img: fl_sv,
+  },
+  {
+    id: "dk",
+    title: "DK",
+    langModel: "dk",
+    img: fl_dk,
+  },
+  {
+    id: "no",
+    title: "NO",
+    langModel: "no",
+    img: fl_no,
+  },
+  {
+    id: "sf",
+    title: "SF",
+    langModel: "sf",
+    img: fl_fl,
+  },
+  {
+    id: "de",
+    title: "DE",
+    langModel: "de",
+    img: fl_de,
+  },
+]
 
 export const contriesSubLinks = [
   {
